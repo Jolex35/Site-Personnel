@@ -19,6 +19,7 @@ body {
     margin: 150px;
     color: white;
     padding: 30px;
+    min-height: 575px;
 }
  
 #logo
@@ -34,18 +35,21 @@ body {
     border-radius: 50%;
 }
 
-#page_select{
-    border-bottom: 2px solid white;
-    color: white;
-    font-size: 1.3em;
-}
+
 
 h1{
     margin: 0 0 0 10px;
+    font-size: 60px
 }
 
 h2{
     margin: 0 0 0 20px;
+    font-size: 40px
+}
+
+h3{
+    margin: 40px 0 0 20px;
+    font-size: 30px
 }
 
 nav{
@@ -69,6 +73,7 @@ nav a
     font-size: 1.3em;
     color: #ff6e35;
     text-decoration: none;
+    font-size: 30px
 }
 
 nav a:hover
@@ -77,3 +82,83 @@ nav a:hover
     border-bottom: 2px solid rgb(161, 31, 47);
 }
 
+#page_select{
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 30px
+}
+
+.photo_droite{
+    float: right;
+    border-bottom-left-radius: 75px;
+    padding: 0px 0px 10px 0px;
+    margin: 0px 0px 0px 20px
+}
+
+article{
+    text-align: justify;
+    font-size: 20px
+    
+}
+
+#banniere_description{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.lien{
+    text-decoration: none;
+    color: #ff6e35;
+}
+
+.lien:hover{
+    color:rgb(161, 31, 47);
+}
+
+.orange{
+    color: #ff6e35;
+    margin-top: 70px;
+}
+
+.orange_clair{
+    color: #ff9f79;
+}
+
+
+.liste li{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#colonne{
+    display: flex;
+    flex-wrap: wrap;
+}
+#gauche{
+    flex: 50%;
+    font-size: 20px;
+}
+
+#droite{
+    flex: 50%;
+}
+.reseaux{
+    list-style-type: none;
+}
+.reseaux li{
+    padding-top: 70px;
+    font-size: 30px;
+    
+}
+.logo_reseaux{
+    width: 100px;
+}
+.logo_reseaux:hover{
+    filter: brightness(0.7);
+}
+.clickable{
+    padding: 10px 30px 0px 0px;
+}
+.clickable:hover{
+    filter: brightness(0.6);
+}
